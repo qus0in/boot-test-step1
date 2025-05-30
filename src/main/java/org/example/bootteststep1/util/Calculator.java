@@ -17,7 +17,9 @@ public class Calculator {
 
     public int divide(int a, int b) {
         if (b == 0) {
-            throw new IllegalArgumentException("0으로 나눌 수 없습니다");
+            // 런타임 에러, 컴파일 에러
+            throw new IllegalArgumentException("0으로 나눌 수 없습니다"); // 커스텀으로 에러 종류를 바꿔버림
+            // 0으로 나눈게 문제가 아니라 0을 패러미터로 넣은게 문제야!
         }
         return a / b;
     }
