@@ -3,6 +3,8 @@ package org.example.bootteststep1.util;
 public class Calculator {
     public int add(int a, int b) {
         return a + b;
+//        return 8; // 테스트가 뭔지 알고 있다면?
+        // if 문으로도 가능하겠죠?
     }
 
     public int subtract(int a, int b) {
